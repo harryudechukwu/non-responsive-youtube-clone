@@ -1,0 +1,711 @@
+html body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(19, 18, 18);
+}
+.sidebar {
+    background-color: rgba(117, 116, 116, 0.267); 
+    width: 15%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar {
+    width: 0px;
+}
+.fa-bars {
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 13%;
+    margin-top: 8%;
+}
+.fa-bars:hover {
+    cursor: pointer;
+}
+.logo {
+    cursor: pointer;
+}
+@font-face {
+    font-family: AlternateGotNo2D;
+    src: url(font/AlternateGotNo2D.otf) format('truetype')
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(font/Roboto-Light.ttf) format('truetype')
+}
+.fa-youtube {
+    position: relative;
+    color: red;
+    font-size: 34px;
+    left: 25%;
+    top: 4px;
+    background-color: rgba(250, 8, 8, 0);
+}
+.text1 {
+    color: rgb(200, 199, 199);
+    background-color: rgba(173, 171, 171, 0);
+    font-family:AlternateGotNo2D ;
+    font-weight: 500;
+    position: relative;
+    top: -2px;
+    left: -19px;
+}
+.topSidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(173, 171, 171, 0);
+    position: relative;
+    top: 5%;
+}
+.fa-home {
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+.fa-fire {
+    background-color: rgba(173, 171, 171, 0);
+    font-size: 24px;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 15px;
+    padding-left: 10%;
+}
+.fa-photo-video {
+    background-color: rgba(173, 171, 171, 0);
+    font-size: 24px;
+    color: white;
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-bottom: 15px;
+}
+a {
+    background-color: transparent;
+    color: white;
+    font-family:Roboto-Light ;
+    margin-left: 25px;
+    font-weight: 900;
+    position: relative;
+    text-decoration: none;
+}
+.Home {
+    background-color:rgb(54, 54, 54) ;
+}
+.Trending {
+    margin-top: 0px;
+}
+.Trending:hover {
+    background-color: rgb(54, 54, 54);
+}
+.Subs {
+    margin-top: 0px;
+}
+.Subs:hover {
+    background-color:rgb(54, 54, 54);
+}
+span, .LinkI {
+   margin-left: 27px; 
+   position: relative;
+   top: 0%;
+   
+}
+span, .Link2 {
+    margin-left: 26px;
+    position: relative;
+    top: 0px;
+    left: -20px;
+}
+span, .Link3 {
+    position: relative;
+    top: 0px;
+    left: -30px;
+}
+.hr {
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    background-color: rgb(82, 78, 78);
+}
+.fa-file-audio {
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+.fa-history {
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+.fa-film {
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+.fa-clock {
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+.fa-thumbs-up {
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+.fa-heart {
+    background-color: transparent;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 5%;
+    padding-left: 9%;
+}
+.Libary {
+    margin-top: 30px;
+}
+.Libary:hover {
+    background-color: rgb(54, 54, 54);
+}
+.History:hover {
+    background-color: rgb(54, 54, 54);
+}
+.Your-videos:hover {
+    background-color: rgb(54, 54, 54);
+}
+.Watch-later:hover {
+    background-color: rgb(54, 54, 54);
+}
+.Like-videos:hover{
+    background-color: rgb(54, 54, 54);
+}
+.Favourite:hover {
+    background-color: rgb(54, 54, 54);
+}
+span, .Link4 {
+    margin-left: 28px;
+    position: relative;
+    top: 0px;
+}
+span, .Link5 {
+    margin-left: 20px;
+    position: relative;
+    top: 0px;
+}
+span, .Link6 {
+    margin-left: 20px;
+    position: relative;
+    top: 0px;
+}
+span, .Link7 {
+    margin-left: 20px;
+    position: relative;
+    top: 0px;
+}
+span, .Link8 {
+    margin-left: 20px;
+    position: relative;
+    top: 0px;
+}
+span, .Link9 {
+    margin-left:20px;
+    position: relative;
+    top: 0px;
+}
+h3 {
+    color: rgb(200, 199, 199);
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Roboto-Light;
+    margin-left: 25px;
+}
+.img1 {
+    width: 15%;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+span, .Link10 {
+    position: relative;
+    top: -20px;
+    left: -25px;
+}
+.Dot {
+    position: relative;
+    top: -30px;
+    left: 88%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgb(0, 77, 243);
+}
+.name1:hover {
+    background-color: rgb(54, 54, 54);
+}
+.name2:hover {
+    background-color: rgb(54, 54, 54);
+}
+.fa-angle-down {
+    color: white;
+    font-size: 34px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+span:nth-child(18), .Link11 {
+    position: relative;
+    top: -10px;
+    margin-left: 32px;
+    
+}
+.fa-youtube:nth-child(1) {
+    margin-left: -50px;
+    color: rgb(82, 78, 78);
+}
+span:nth-child(19), .Link1 {
+    margin-left: 35%;
+    position: relative;
+    top: -2px;
+}
+span:nth-child(20), .LinkG {
+    position: relative;
+    top: -7px;
+    left: -7%;
+}
+span:nth-child(21), .LinkL {
+    position: relative;
+    top: -7px;
+    left: -3%;
+}
+span:nth-child(22), .LinkS {
+    position: relative;
+    top: -7px;
+    left: -7%;
+}
+.Trending1 {
+    padding-bottom: 10px;
+}
+.Trending1:hover {
+    background-color: rgb(54, 54, 54);
+}
+.fa-gamepad {
+    font-size: 34px;
+    color: rgb(82, 78, 78);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.Trending2 {
+    padding-bottom: 10px;
+}
+.Trending2:hover {
+    background-color: rgb(54, 54, 54);
+}
+.fa-podcast {
+    font-size: 34px;
+    color: rgb(82, 78, 78);
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.Trending3 {
+    padding-bottom: 10px;
+}
+.Trending3:hover {
+    background-color: rgb(54, 54, 54);
+}
+span:nth-child(20), .Link3 {
+    margin-left: 12%;
+}
+.Trending4 {
+    padding-bottom: 10px;
+}
+.Trending4:hover {
+    background-color: rgb(54, 54, 54);
+}
+.fa-trophy {
+    font-size: 34px;
+    color: rgb(82, 78, 78);
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.fa-cog {
+    font-size: 34px;
+    color: rgb(82, 78, 78);
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.fa-flag {
+    font-size: 34px;
+    color: rgb(82, 78, 78);
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.fa-question-circle {
+    font-size: 34px;
+    color: rgb(82, 78, 78);
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.fa-comment-alt {
+    font-size: 34px;
+    color: rgb(82, 78, 78);
+    margin-left: 25px;
+    margin-top: 15px;
+}
+h4 {
+    font-size: 12px;
+    font-family: Roboto-Light;
+    font-weight: 800;
+    color: rgb(207, 203, 203);
+    margin-left: 30px;
+    line-height: 10px;
+    cursor: pointer;
+}
+h4:hover, h2:hover {
+    color: white;
+}
+h2 {
+    font-size: 12px;
+    font-family: Roboto-Light;
+    font-weight: 800;
+    color: rgb(207, 203, 203);
+    margin-left: 30px;
+    margin-top: -40px;
+    line-height: 10px;
+    cursor: pointer;
+}
+h5 {
+    font-family: Roboto-Light;
+    color: rgb(149, 147, 147);
+    margin-left: 30px;
+    margin-top: -20px;
+    cursor: pointer;
+    font-size: 9px;
+}
+h5:hover {
+    color: white;
+}
+.header {
+    background-color: rgba(117, 116, 116, 0.267);
+    width: 85%;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 15%;
+    border-bottom: 1px solid rgb(82, 78, 78);
+}
+.searchContainer {
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: relative;
+    left: 20%;
+    top: 10%;
+    border: 1px solid rgb(54, 54, 54);
+    background-color:  rgb(54, 54, 54) ;
+    border-radius: 4px;
+    overflow: hidden;
+    outline: none;
+}
+.fa-search {
+    color: rgb(121, 117, 117);
+    padding-right: 1.5rem;
+    margin-top: 6px;
+    margin-left: 26px;
+}
+.SearchBox {
+    border: 0;
+    padding: 0.5rem 30rem 0.5rem 0.5rem;
+    flex: 1;
+    background-color: rgb(19, 18, 18);
+    outline: none;
+}
+::placeholder {
+    font-family: Roboto-Light;
+    font-weight: 900;
+}
+.fa-microphone {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 21%;
+    top: 15px;
+}
+.TopIcons {
+    position: relative;
+    display: inline-flex;
+    z-index: 2;
+    left: 43%;    
+}
+.fa-video {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 21%;
+    top: 15px;
+}
+.fa-th {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 49%;
+    top: 15px; 
+}
+.fa-bell {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 81%;
+    top: 15px;  
+}
+.me {
+    position: relative;
+    top: -20%;
+}
+.user {
+    width: 2%;
+    border-radius: 50%;
+    position: relative;
+    right: -97%;
+    top: 11px;   
+}
+.topicsContainer {
+    display: inline-flex;
+    margin-top: 3px;
+    flex-direction: row;
+}
+.topic1 {
+    background-color: rgb(80, 78, 78);
+    width: 40%;
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 45px;
+    border-radius: 19px;
+    border: 1px solid rgb(119, 119, 119);
+    color: white;
+}
+.topic1:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(119, 119, 119);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.topic1:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119) ;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.topic1:nth-child(4) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.topic1:nth-child(5) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119) ;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.topic1:nth-child(6) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119) ;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.topic1:nth-child(7) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119) ;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.topic1:nth-child(8) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.topic1:nth-child(9) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119) ;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.topic1:nth-child(10) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119);
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.topic1:nth-child(11) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px ;
+    padding-right: 8px;
+    border: 1px solid  rgb(119, 119, 119);
+}
+.topic1:nth-child(12) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119) ;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.topic1:nth-child(13) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119);
+    padding-left: 5px;
+    padding-right: 8px;
+}
+.topic1:nth-child(14) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119) ;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.topic1:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid  rgb(119, 119, 119);
+    padding-left: 18px;
+    padding-right: 18px;
+    color: black;
+    background-color: white;
+}
+.hr2 {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(82, 78, 78);
+}
+.body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 85px;
+    position: absolute;
+    top: 18%;
+    left: 16%;
+}
+.body2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 85px;
+    position: absolute;
+    top: 42%;
+    left: 16%;
+}
+.body3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 85px;
+    position: absolute;
+    top: 69%;
+    left: 16%;
+}
+.profileImage {
+    width: 8%;
+    border-radius: 50%;
+    position: relative;
+    bottom: -10px;
+    right: 0;
+}
+h6 {
+    color: white;
+    position: relative;
+    cursor: pointer;
+    font-size: 24px;
+    white-space: nowrap;
+    left: 70%;
+    bottom: 115px;
+    background: rgba(0, 0, 0, 0.637);
+    width: 75px;
+    height: 32px;
+    z-index: 2;
+    display: flex;
+    font-size: 16px;
+    font-family: Roboto-Light;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.caption1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: Roboto-Light;
+    position: relative;
+    left: 40px;
+    top: -130px;
+    text-transform: capitalize;
+}
+.caption2 {
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: Roboto-Light;
+    position: relative;
+    left: 40px;
+    top: -110px;
+}
+h1 {
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: Roboto-Light;
+    position: relative;
+    top: -29%;
+    left: 40px;
+}
